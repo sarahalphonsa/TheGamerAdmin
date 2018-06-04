@@ -1,0 +1,113 @@
+html, body {
+	font-family: Arial;
+	margin: 0;
+	background-image: linear-gradient(to right bottom, #4ffcf7, #45d4b5, #49ac78, #4a8540, #455e0b);
+}
+
+header{
+	background-color: #04f7a6;
+	font-family: impact;
+	/*padding is top value; right value; bottom value; left value;*/
+}
+
+header h1 {
+text-shadow: 1px 4px 20px #022100;
+/* x value y value blur amount color */
+color: #494d68;
+}
+.left{
+	font-size: 60px;
+	text-align: center;
+	line-height: 20%;
+}
+
+.right {
+	font-size: 60px;
+	font-style: italic;
+	text-align: center;
+	line-height: 30%;
+	background-color: #c5c7e0;
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	height: 25%;
+	width: 25%;
+	border:20px solid #bbf2b8;
+	box-shadow: 5px 10px 20px #022100;
+}
+/*<header>
+		<img src="C:/Users/sarah/Desktop/cartoon-hero/img/spider-man.jpg">
+		<h1>The Amazing Spider-Man! :)</h1>
+	</header>*/
+
+	.content {
+		background-image: linear-gradient(to bottom, #cbfefc, #73c1d6, #2084b3, #004789, #18044f);
+		max-width: 850px;
+		margin: 0 auto;
+		text-align: left;
+		padding: 0 20;
+	}
+	.content h2 {
+		color: #494d68;
+		background-color: white;
+	}
+
+	.content p {
+		color: #2f2e3f;
+	}
+
+	.first-line {
+		margin-left: 20px;
+	}
+
+	.indent{
+		margin-left: 10px;
+	}
+
+	.content ol, ul {
+		color: #0d074f;
+	}
+
+	.content a {
+		color: #2d0100;
+	}
+
+	a:hover{
+		background-color: #60bc91;
+		color: #013f22;
+	}
+
+	img.big-image {
+		max-width: 100%;
+	}
+
+	p.caption {
+		font-size: 16px;
+		color: black;
+		font-style: italic;
+	}
+
+	footer{
+		padding: 20px 30px;
+		background-color: #070b38;
+		text-align: center;
+	}
+
+	footer ul{
+		color: white;
+		list-style: none;
+	}
+
+	footer a {
+		color: white;
+		list-style: none;
+	}
+
+	footer ul li {
+		display: inline-block;
+		margin: 0 5px;
+	}
