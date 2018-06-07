@@ -5,15 +5,15 @@ html, body {
 }
 
 header{
-	background-color: #91ECAC;
+	background-color: #04f7a6;
 	font-family: impact;
 	/*padding is top value; right value; bottom value; left value;*/
 }
 
 header h1 {
-text-shadow: 4px 4px 35px #612B07;
+text-shadow: 1px 4px 20px #022100;
 /* x value y value blur amount color */
-color: #54E1F2;
+color: #494d68;
 }
 .left{
 	font-size: 60px;
@@ -26,7 +26,7 @@ color: #54E1F2;
 	font-style: italic;
 	text-align: center;
 	line-height: 30%;
-	background-color: #612B07;
+	background-color: #c5c7e0;
 }
 
 header img{
@@ -36,54 +36,13 @@ header img{
     width: 50%;
 	height: 25%;
 	width: 25%;
-	border:20px solid #2B664A ;
-	box-shadow: 3px 5px 20px #612B07;
+	border:20px solid #bbf2b8;
+	box-shadow: 5px 10px 20px #022100;
 }
 /*<header>
 		<img src="C:/Users/sarah/Desktop/cartoon-hero/img/spider-man.jpg">
 		<h1>The Amazing Spider-Man! :)</h1>
 	</header>*/
-
-
-/* The sidebar menu */
-.sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #612B07; /* Seal Brown */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-}
-
-/* The navigation menu links */
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    font-family: impact;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-/* Style page content */
-.main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
 
 	.content {
 		background-image: linear-gradient(to bottom, #cbfefc, #73c1d6, #2084b3, #004789, #18044f);
@@ -95,7 +54,6 @@ header img{
 	.content h2 {
 		color: #494d68;
 		background-color: white;
-		font-family: impact;
 	}
 
 	.content p {
